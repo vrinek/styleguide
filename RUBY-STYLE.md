@@ -125,7 +125,8 @@ when you contribute to my code, please follow these rules:
 * Comments longer than a word are capitalized and use punctuation.
   Use two spaces after periods.
 
-* Avoid superfluous comments.
+* Focus on the why the code does what it does, not the what it does
+  or how it does it.
 
 
 ## The rest:
