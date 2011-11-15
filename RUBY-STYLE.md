@@ -57,8 +57,8 @@ when you contribute to my code, please follow these rules:
   when calling "functions", i.e. when you use the return value in the
   same line.
 
-    x = Math.sin(y)
-    array.delete e
+        x = Math.sin(y)
+        array.delete e
 
 * Prefer {...} over do...end.  Multiline {...} is fine: having
   different statement endings (} for blocks, end for if/while/...)
@@ -72,7 +72,7 @@ when you contribute to my code, please follow these rules:
 
 * Using the return value of = is okay:
 
-    if v = array.grep(/foo/) ...
+        if v = array.grep(/foo/) ...
 
 * Use ||= freely.
 
@@ -93,20 +93,20 @@ when you contribute to my code, please follow these rules:
   variables for short block/method parameters, according to this
   scheme:
 
-    a,b,c: any object
-    d: directory names
-    e: elements of an Enumerable
-    ex: rescued exceptions
-    f: files and file names
-    i,j: indexes
-    k: the key part of a hash entry
-    m: methods
-    o: any object
-    r: return values of short methods
-    s: strings
-    v: any value
-    v: the value part of a hash entry
-    x,y,z: numbers
+        a,b,c: any object
+        d: directory names
+        e: elements of an Enumerable
+        ex: rescued exceptions
+        f: files and file names
+        i,j: indexes
+        k: the key part of a hash entry
+        m: methods
+        o: any object
+        r: return values of short methods
+        s: strings
+        v: any value
+        v: the value part of a hash entry
+        x,y,z: numbers
 
   And in general, the first letter of the class name if all objects
   are of that type.
