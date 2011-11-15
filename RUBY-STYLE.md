@@ -18,9 +18,9 @@ when you contribute to my code, please follow these rules:
 * Use Unix-style line endings.
 
 * Use spaces around operators, after commas, colons and semicolons,
-  around { and before }.
+  around `{` and before `}`.
 
-* No spaces after (, [ and before ], ).
+* No spaces after `(`, `[` and before `]`, `)`.
 
 * Use an empty line before the return value of a method (unless it
   only has one line), and an empty line between defs.
@@ -42,15 +42,13 @@ when you contribute to my code, please follow these rules:
 
 * Never use `for`, unless you exactly know why.
 
-* Never use then.
-
-* Use when x; ... for one-line cases.
+* Never use `then`.
 
 * Use &&/|| for boolean expressions, and/or for control flow.  (Rule
   of thumb: If you have to use outer parentheses, you are using the
   wrong operators.)
 
-* Avoid multiline ?:, use if.
+* When `?:` becomes too long, change it to an `if ... else ... end`.
 
 * Suppress superfluous parentheses when calling methods, but keep them
   when calling "functions", i.e. when you use the return value in the
