@@ -22,20 +22,16 @@ when you contribute to my code, please follow these rules:
 
 * No spaces after (, [ and before ], ).
 
-* Use two spaces before statement modifiers (postfix
-  if/unless/while/until/rescue).
-
-* Indent when as deep as case.
-
 * Use an empty line before the return value of a method (unless it
   only has one line), and an empty line between defs.
 
-* Use RDoc and its conventions for API documentation.  Don't put an
+* Use RDoc and its conventions for documentation.  Don't put an
   empty line between the comment block and the def.
 
 * Use empty lines to break up a long method into logical paragraphs.
 
-* Keep lines fewer than 80 characters.
+* Try to keep lines fewer than 80 characters.  Always keep them less
+  than 100 characters.
 
 * Avoid trailing whitespace.
 
@@ -44,7 +40,7 @@ when you contribute to my code, please follow these rules:
 
 * Use def with parentheses when there are arguments.
 
-* Never use for, unless you exactly know why.
+* Never use `for`, unless you exactly know why.
 
 * Never use then.
 
