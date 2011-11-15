@@ -1,4 +1,4 @@
-# Christian Neukirchen's Ruby Style Guide
+# Christian Neukirchen's Ruby Style Guide (partially edited by Kostas Karachalios)
 
 You may not like all rules presented here, but they work very well for
 me and have helped producing high quality code.  Everyone is free to
