@@ -48,7 +48,8 @@ when you contribute to my code, please follow these rules:
   of thumb: If you have to use outer parentheses, you are using the
   wrong operators.)
 
-* When `_ ? _ : _` becomes too long, change it to an `if _ else _ end`.
+* When `... ? ... : ...` becomes too long, change it to
+  `if ... else ... end`.
 
 * Suppress superfluous parentheses when calling methods, but keep them
   when calling "functions", i.e. when you use the return value in the
