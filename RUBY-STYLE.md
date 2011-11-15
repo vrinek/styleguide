@@ -8,10 +8,10 @@ when you contribute to my code, please follow these rules:
 
 ## Formatting:
 
-* Loosely follow 1TBS guidelines
-  http://en.wikipedia.org/wiki/Indent_style#Variant:_1TBS
+* Loosely follow 1TBS guidelines.
+  (See http://en.wikipedia.org/wiki/Indent_style#Variant:_1TBS)
 
-* Use ASCII (or UTF-8, if you have to).
+* Use UTF-8.
 
 * Use 2 space indent, no tabs.
 
