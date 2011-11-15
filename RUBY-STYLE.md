@@ -72,10 +72,10 @@ when you contribute to my code, please follow these rules:
 
         if v = array.grep(/foo/) ...
 
-* Use ||= freely.
+* Use `||=` freely.
 
 * Use non-OO regexps (they won't make the code better).  Freely use
-  =~, $0-9, $~, $` and $' when needed.
+  `=~`, `$0-9`, `$~`, `$\`` and `$'` when needed.
 
 
 ## Naming:
