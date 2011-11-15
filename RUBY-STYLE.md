@@ -166,7 +166,7 @@ when you contribute to my code, please follow these rules:
 * Do not mess around in core classes when writing libraries.
 
 * Do not program defensively.
-  (See http://www.erlang.se/doc/programming_rules.shtml#HDR11.)
+  (See http://www.erlang.se/doc/programming_rules.shtml#HDR11)
 
 * Keep the code simple.
 
